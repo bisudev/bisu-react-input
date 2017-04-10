@@ -69,6 +69,15 @@ class Demo extends Component {
               />
             </Field>
           </Row>
+          <Row>
+            <Field data-disabled="true">
+              <ThisComponent
+                model=".username"
+                label="Disabled Username"
+                disabled
+              />
+            </Field>
+          </Row>
         </Fieldset>
         <hr />
         <button type="submit" className="btn btn-primary">Submit</button>

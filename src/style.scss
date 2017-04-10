@@ -2,7 +2,6 @@
   .form-control,
   .form-control:focus {
     box-shadow: none;
-
   }
   .form-control::placeholder {
     color: $input-color-placeholder !important;
@@ -10,4 +9,18 @@
   .req {
     color: $brand-danger;
   }
+}
+[data-disabled="true"] {
+  .btn-inline:hover {
+    color: $gray-light;
+  }
+  .btn-inline:active {
+    transform: none;
+  }
+}
+[data-disabled="true"],
+[data-disabled="true"]:hover,
+fieldset[disabled] [data-row-span],
+fieldset[disabled] [data-row-span] [data-field-span]:hover {
+  background-color: lighten($gray-lighter, 4%) !important;
 }
