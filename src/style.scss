@@ -1,0 +1,13 @@
+.bisu--react-input {
+  .form-control,
+  .form-control:focus {
+    box-shadow: none;
+
+  }
+  .form-control::placeholder {
+    color: $input-color-placeholder !important;
+  }
+  .req {
+    color: $brand-danger;
+  }
+}
