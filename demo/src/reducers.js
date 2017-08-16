@@ -7,5 +7,5 @@ export default combineReducers({
   // react-redux-form
   ...createForms({
     formState,
-  })
+  }),
 })

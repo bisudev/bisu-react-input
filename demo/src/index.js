@@ -83,6 +83,14 @@ class Demo extends Component {
           </Row>
           <Row>
             <Field>
+              <Input model=".email" label="Email" required />
+            </Field>
+            <Field>
+              <Input type="checkbox" label="Is Active" model=".is_active" />
+            </Field>
+          </Row>
+          <Row>
+            <Field>
               <Input type="checkbox" label="Is Active" model=".is_active" />
             </Field>
           </Row>
@@ -97,11 +105,13 @@ class Demo extends Component {
 
   render() {
     return (
-      <div className="row">
-        <div className="col-sm-4 col-sm-offset-4">
-          <h1>bisu-react-input Demo</h1>
-          <hr />
-          {this._renderForm()}
+      <div className="container">
+        <div className="row justify-content-md-center">
+          <div className="col-sm-4">
+            <h1>bisu-react-input Demo</h1>
+            <hr />
+            {this._renderForm()}
+          </div>
         </div>
       </div>
     )

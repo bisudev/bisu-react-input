@@ -1,6 +1,6 @@
 {
   "name": "bisu-react-input",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "bisu-react-input React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,7 +17,7 @@
   "peerDependencies": {},
   "devDependencies": {
     "babel-eslint": "7.2.3",
-    "bootstrap-sass": "3.3.7",
+    "bootstrap": "4.0.0-beta",
     "eslint": "3.19.0",
     "eslint-config-react-app": "1.0.5",
     "eslint-plugin-flowtype": "2.33.0",
@@ -33,7 +33,7 @@
     "react-redux-form": "1.14.0",
     "redux": "3.7.2",
     "redux-thunk": "2.2.0",
-    "tforms": "1.0.2"
+    "tforms": "1.0.4"
   },
   "author": "",
   "homepage": "",

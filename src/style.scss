@@ -1,9 +1,15 @@
 .bisu--errblock {
   font-size: 12px;
-  color: $brand-danger;
+  color: $red;
 }
 .bisu--react-input {
   .req {
-    color: $brand-danger;
+    color: $red;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
