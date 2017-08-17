@@ -1462,6 +1462,10 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
+classnames@2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+
 clean-css@4.1.x:
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.7.tgz#b9aea4f85679889cf3eae8b40349ec4ebdfdd032"
@@ -6500,9 +6504,11 @@ text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-tforms@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/tforms/-/tforms-1.0.2.tgz#b8675102181dc97b545ebdaa950e4d652706fd72"
+tforms@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tforms/-/tforms-1.0.5.tgz#a55ab2e002ef90b00e8524df493f5e71c2843d11"
+  dependencies:
+    classnames "2.2.5"
 
 throttleit@^1.0.0:
   version "1.0.0"
