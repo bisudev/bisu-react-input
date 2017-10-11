@@ -11,6 +11,7 @@ const errBlock = model =>
       intRequired: '* Required.',
       similar: '* Not match.',
       isEmail: '* Must be a valid email',
+      isNumber: '* Must be a number',
     }}
   />
 
