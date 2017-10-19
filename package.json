@@ -1,15 +1,10 @@
 {
   "name": "bisu-react-input",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "bisu-react-input React component",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "files": ["css", "es", "lib", "umd"],
   "scripts": {
     "build": "nwb build-react-component --copy-files",
     "clean": "nwb clean-module && npm clean-demo",
@@ -44,7 +39,5 @@
   "homepage": "",
   "license": "MIT",
   "repository": "https://github.com/bisudev/bisu-react-input.git",
-  "keywords": [
-    "react-component"
-  ]
+  "keywords": ["react-component"]
 }
