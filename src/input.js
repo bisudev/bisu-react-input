@@ -34,7 +34,7 @@ class BisuReactInput extends Component {
   }
 
   render() {
-    const { model, type, label, required, ...props } = this.props
+    const { model, type, label, required, onFocus, onBlur, ...props } = this.props
     return (
       <Field model={model} className="bisu--react-input">
         <label htmlFor={model}>
